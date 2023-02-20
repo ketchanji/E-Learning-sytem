@@ -1,15 +1,35 @@
-import React from 'react'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 export const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
+    const navigate = useNavigate();
+      
+    const navigatetoIndex = () => {
+      navigate("/");
+    };
+
+    const navigatetoContact = () => {
+      navigate("/contact");
+    };
+
+    const navigatetoAbout = () => {
+      navigate("/about");
+    };
+
+    const navigatetoHome = () => {
+        navigate("/Home");
+      };
+
+
     return (
       <div class="bg-gray-900">
         <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div class="relative flex items-center justify-between">
             <a
-              href="/"
+              href="/" onClick={navigatetoIndex}
               aria-label="Company"
               title="Company"
               class="inline-flex items-center"
@@ -30,48 +50,48 @@ export const Nav = () => {
                 <rect x="14" y="11" width="7" height="12" />
               </svg>
               <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-                Company
+                E-Learn.
               </span>
             </a>
             <ul class="flex items-center hidden space-x-8 lg:flex">
               <li>
                 <a
-                  href="/"
-                  aria-label="Our product"
-                  title="Home"
+                  href="" onClick={navigatetoHome}
+                  aria-label="Room"
+                  title="Room"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                 Home
+                 Room
                 </a>
               </li>
               <li>
                 <a
-                  href="/"
-                  aria-label="Our product"
-                  title="Our product"
-                  class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                >
-                 Our Product
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
+                  href="" onClick={navigatetoAbout}
                   aria-label="About us"
                   title="About us"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                  About us
+                  About_us
+                </a>
+              </li>
+              <li>
+                <a
+                  href="" onClick={navigatetoContact}
+                  aria-label="Contact Us"
+                  title="Contact Us"
+                  class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                >
+                 Contact
                 </a>
               </li>
             </ul>
             <ul class="flex items-center hidden space-x-8 lg:flex">
               <li>
                 <a
-                  href="/"
+                  href="" onClick={navigatetoHome}
                   class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                  aria-label="Sign up"
-                  title="Sign up"
+                  aria-label="Get Started"
+                  title="Get Started"
                 >
                   Get Started
                 </a>
@@ -104,31 +124,6 @@ export const Nav = () => {
                   <div class="p-5 bg-white border rounded shadow-sm">
                     <div class="flex items-center justify-between mb-4">
                       <div>
-                        <a
-                          href="/"
-                          aria-label="Company"
-                          title="Company"
-                          class="inline-flex items-center"
-                        >
-                          <svg
-                            class="w-8 text-deep-purple-accent-400"
-                            viewBox="0 0 24 24"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeMiterlimit="10"
-                            stroke="currentColor"
-                            fill="none"
-                          >
-                            <rect x="3" y="1" width="7" height="12" />
-                            <rect x="3" y="17" width="7" height="6" />
-                            <rect x="14" y="1" width="7" height="6" />
-                            <rect x="14" y="11" width="7" height="12" />
-                          </svg>
-                          <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                            Company
-                          </span>
-                        </a>
                       </div>
                       <div>
                         <button
