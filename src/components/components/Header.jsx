@@ -1,6 +1,19 @@
-import React from 'react'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const Header = () => {
+
+    const navigate = useNavigate();
+      
+    const navigatetoHome = () => {
+      navigate("/home");
+    };
+
+    const navigatetoAbout = () => {
+      navigate("/about");
+    };
+
+
     return (
       <section>
       <div className="relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0">
@@ -28,13 +41,13 @@ export const Header = () => {
             </div>
             <div className="flex flex-col items-center md:flex-row">
               <a
-                href="/"
+                href="" onClick={navigatetoHome}
                 className="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Apply Now
               </a>
               <a
-                href="/"
+                href="" onClick={navigatetoAbout}
                 aria-label=""
                 className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
               >

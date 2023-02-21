@@ -145,22 +145,22 @@ export const Nav = () => {
                       <ul class="space-y-4">
                         <li>
                           <a
-                            href="/"
-                            aria-label="Our product"
-                            title="Our product"
+                            href="" onClick={navigatetoHome}
+                            aria-label="Room"
+                            title="Room"
                             class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            Product
+                            Room
                           </a>
                         </li>
                         <li>
                           <a
-                            href="/"
-                            aria-label="Our product"
+                            href="" onClick={navigatetoAbout}
+                            aria-label="About_Us"
                             title="Our product"
                             class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            Features
+                            About_Us
                           </a>
                         </li>
                         <li>
