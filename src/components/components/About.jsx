@@ -68,7 +68,7 @@ export const About = () => {
             </div>
             <div className="max-w-xl mb-6">
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                Why{" "}
+                Why is{" "}
                 <span className="inline-block text-deep-purple-accent-400">
                   E-Learn.{" "}
                 </span>

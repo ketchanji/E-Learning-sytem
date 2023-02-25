@@ -74,16 +74,6 @@ export const Nav = () => {
                   About_us
                 </a>
               </li>
-              <li>
-                <a
-                  href="" onClick={navigatetoContact}
-                  aria-label="Contact Us"
-                  title="Contact Us"
-                  class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                >
-                 Contact
-                </a>
-              </li>
             </ul>
             <ul class="flex items-center hidden space-x-8 lg:flex">
               <li>
@@ -146,8 +136,8 @@ export const Nav = () => {
                         <li>
                           <a
                             href="" onClick={navigatetoHome}
-                            aria-label="Room"
-                            title="Room"
+                            aria-label="Product pricing"
+                            title="Product pricing"
                             class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
                             Room
@@ -156,26 +146,6 @@ export const Nav = () => {
                         <li>
                           <a
                             href="" onClick={navigatetoAbout}
-                            aria-label="About_Us"
-                            title="Our product"
-                            class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                          >
-                            About_Us
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/"
-                            aria-label="Product pricing"
-                            title="Product pricing"
-                            class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                          >
-                            Pricing
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/"
                             aria-label="About us"
                             title="About us"
                             class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"

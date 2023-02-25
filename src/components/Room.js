@@ -30,7 +30,7 @@ const Room = () => {
   console.log(roomID);
 
   
-  let meeting = async (element) => {
+  const meeting = async (element) => {
     const appID = 1637138922;
     const serverSecret = "fabc41698b6fcfe72e16d57ce34545a2";
 
