@@ -1,4 +1,5 @@
 import React from "react";
+import 'animate.css';
 
 export const About = () => {
   return (
@@ -9,10 +10,10 @@ export const About = () => {
             href="/"
             aria-label="View"
             className="inline-block mb-5 rounded-full sm:mx-auto"></a>
-          <h2 className="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+          <h2 className="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none animate__animated animate__bounceInLeft">
             About_us
           </h2>
-          <p className="text-base text-gray-700 md:text-lg sm:px-4">
+          <p className="text-base text-gray-700 md:text-lg sm:px-4 animate__animated animate__bounceInRight">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque rem aperiam, eaque ipsa quae.
           </p>
@@ -20,7 +21,7 @@ export const About = () => {
         </div>
       </div>
 
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 animate__animated animate__bounceInLeft">
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-accent-400">

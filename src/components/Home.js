@@ -16,7 +16,7 @@ function Home() {
   return (
     <section>
       <Nav />
-      <div class="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-500  mt-20 mb-48">
+      <div class="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-500  mt-20 mb-48 animate__animated animate__bounceInRight">
         <div class="px-6 py-4">
           <div class="flex justify-center mx-auto">
             <img

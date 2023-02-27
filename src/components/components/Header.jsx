@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import 'animate.css';
 
 export const Header = () => {
 
@@ -18,7 +19,7 @@ export const Header = () => {
       <section>
       <div className="relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0">
         <div className="flex flex-col items-start w-full max-w-xl px-4 mx-auto lg:px-8 lg:max-w-screen-xl">
-          <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
+          <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5 animate__animated animate__bounceInLeft">
             <div className="max-w-xl mb-6">
               <div>
                 <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
@@ -58,7 +59,7 @@ export const Header = () => {
         </div>
         <div className="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
           <img
-            className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
+            className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full animate__animated animate__bounceInRight"
             src="https://dolby.io/wp-content/uploads/2022/07/video-call-illo-720x550-1.png"
             alt=""
           />
