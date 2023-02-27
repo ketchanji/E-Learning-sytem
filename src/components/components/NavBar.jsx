@@ -11,8 +11,8 @@ export const Nav = () => {
       navigate("/");
     };
 
-    const navigatetoContact = () => {
-      navigate("/contact");
+    const navigatetoProduct = () => {
+      navigate("/products");
     };
 
     const navigatetoAbout = () => {
@@ -72,6 +72,16 @@ export const Nav = () => {
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
                   About_us
+                </a>
+              </li>
+              <li>
+                <a
+                  href="" onClick={navigatetoProduct}
+                  aria-label="Our Products"
+                  title="About us"
+                  class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                >
+                  Our Products
                 </a>
               </li>
             </ul>

@@ -546,7 +546,9 @@ export const Header = () => {
         />
         <div className="absolute inset-0 bg-gray-900 bg-opacity-50" />
       </div>
-     
+      <div>
+      <script src="//code.tidio.co/qfjkujg2ul4yecyshwx7nw72ayp4ridq.js" async></script>
+      </div>
       </section>
     );
   };

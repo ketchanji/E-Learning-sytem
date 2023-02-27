@@ -1,6 +1,7 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import { ZegoUIKitPrebuilt } from "@zegocloud/zego-uikit-prebuilt";
+import { Nav } from "./components/NavBar";
+import { Footer } from "./components/Footer";
 
 
 function randomID(len) {
@@ -65,10 +66,14 @@ const Room = () => {
     });
   };
   return (
+    <section>
+    <Nav />
     <div
       className="myCallContainer"
       ref={meeting}
       style={{ width: "100vw", height: "100vh" }}></div>
+      <Footer />
+      </section>
   );
 };
 
