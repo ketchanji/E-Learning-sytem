@@ -45,7 +45,7 @@ export const Header = () => {
                 href="" onClick={navigatetoHome}
                 className="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
-                Apply Now
+                Learn Now
               </a>
               <a
                 href="" onClick={navigatetoAbout}
@@ -93,9 +93,9 @@ export const Header = () => {
                 height="24"
               />
             </svg>
-            <span className="relative">The</span>
+            <span className="relative">Steps To Connect with your </span>
           </span>{' '}
-          quick, brown fox jumps over a lazy dog
+          Teachers with E-Learn.
         </h2>
       </div>
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
@@ -253,14 +253,14 @@ export const Header = () => {
       <div className="grid gap-12 row-gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quick, brown fox
-              <br className="hidden md:block" />
-              jumps over{' '}
-              <span className="inline-block text-deep-purple-accent-400">
-                a lazy dog
-              </span>
-            </h2>
+          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                Connect with your 
+                <br className="hidden md:block" />
+                 Teachers with {' '}
+                <span className="inline-block text-deep-purple-accent-400">
+                  E-Learn.
+                </span>
+              </h2>
             <p className="text-base text-gray-700 md:text-lg">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -357,7 +357,7 @@ export const Header = () => {
               </svg>
               <span className="relative">The</span>
             </span>{' '}
-            brown fox
+            E.Learn sys..
           </h2>
           <p className="mb-4 text-gray-900 lg:mb-6">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
