@@ -74,16 +74,6 @@ export const Nav = () => {
                   About_us
                 </a>
               </li>
-              <li>
-                <a
-                  href="" onClick={navigatetoProduct}
-                  aria-label="Our Products"
-                  title="About us"
-                  class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                >
-                  Our Products
-                </a>
-              </li>
             </ul>
             <ul class="flex items-center hidden space-x-8 lg:flex">
               <li>
