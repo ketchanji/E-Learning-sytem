@@ -34,3 +34,30 @@ run this coomands on your code editor terminal
 Screen shot of the system will be added here  !!!!!!
 
 ###### screen shots
+# HOME PAGE
+![Screenshot 2023-02-28 230242](https://user-images.githubusercontent.com/98779202/222959671-920a9bf1-71c1-47ed-a375-48403aeaa05f.jpg)
+
+# ABOUT PAGE
+
+![Screenshot 2023-02-28 230949](https://user-images.githubusercontent.com/98779202/222959743-bbf5ce28-6199-49d3-83f4-16f365680b07.jpg)
+
+# ROOM PAGE
+
+![Screenshot 2023-02-28 231142](https://user-images.githubusercontent.com/98779202/222959766-2262fdc3-e7e0-4abd-ab9a-6d14cf341efc.jpg)
+
+# JOIN CLASS ROOM PAGE
+
+![Screenshot 2023-03-01 095301](https://user-images.githubusercontent.com/98779202/222959824-08cf821d-50c0-4b01-bb2d-4a1551067545.jpg)
+
+# INSIDE CLASS PAGE
+
+![Screenshot 2023-03-01 095159](https://user-images.githubusercontent.com/98779202/222959855-77e9cd17-7e57-43ee-b376-aee04ba8c529.jpg)
+
+# LIVE CONTACT SUPPORT PAGE
+
+
+![Screenshot 2023-03-05 131622](https://user-images.githubusercontent.com/98779202/222959925-c1db3c97-98fa-48be-86cd-ef49e85b266f.jpg)
+
+# METHODOLOGY USED
+
+![Screenshot 2023-03-01 192526](https://user-images.githubusercontent.com/98779202/222959948-b57f490d-7cf7-493a-b7af-63439a9b8af0.jpg)
